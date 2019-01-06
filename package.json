@@ -4,7 +4,8 @@
   "description": "a new project for vue",
   "scripts": {
     "start": "ENVIRONMENT=development hpack d",
-    "build": "ENVIRONMENT=production hpack b"
+    "build test": "ENVIRONMENT=test hpack b",
+    "build prod": "ENVIRONMENT=production hpack b"
   },
   "author": "schacker",
   "license": "ISC",
