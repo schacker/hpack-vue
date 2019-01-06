@@ -1,9 +1,9 @@
 module.exports = {
   // 标准的webpack4的配置，可以覆盖默认配置
   webpack: {
-    // output: {
-    //   publicPath: 'http://localhost:8017/'
-    // }
+    output: {
+      publicPath: 'http://xxx.cdn.com:8017/'
+    }
   },
 
   // 默认的启动端口是8018，这里可以切换

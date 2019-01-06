@@ -2,7 +2,7 @@ module.exports = {
   // 标准的webpack4的配置，可以覆盖默认配置
   webpack: {
     output: {
-      publicPath: 'http://localhost:8017/'
+      publicPath: 'http://xx.test.com:8017/'
     }
   },
 
